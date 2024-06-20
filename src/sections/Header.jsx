@@ -28,7 +28,7 @@ export default function Header () {
 
     return (
         <div className="py-5 px-10 md:mx-10">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mb-3">
                 <Logo />
                 <div onClick={handleDarkMood} className="cursor-pointer dark:text-white text-2xl transition hover:bg-neutral-200 dark:hover:bg-neutral-600 linear duration-300 p-2 rounded-lg hover:border border-gray-400 ">
                     {darkMode ? <IoSunny /> : <IoMoonOutline />}
