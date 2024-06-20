@@ -11,7 +11,7 @@ export default function NotFound () {
             >
                 <IoSearchOutline className="dark:text-white text-7xl font-bold" />
             </motion.div>
-            <p className="text-neutral-700 dark:text-white font-semibold text-xl">No Resaults Found.</p>
+            <p className="text-neutral-700 dark:text-white font-semibold text-xl">No Results Found.</p>
         </div>
     )
 }
