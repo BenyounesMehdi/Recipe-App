@@ -26,7 +26,7 @@ export default function Categories () {
                         <Category 
                             category={category} 
                             icon={icon} 
-                            className={ isActive && `bg-orange-500 dark:bg-orange-400`}
+                            className={isActive ? 'bg-orange-500 dark:bg-yellow-500' : ''}
                         />
                     )}
             </NavLink>
