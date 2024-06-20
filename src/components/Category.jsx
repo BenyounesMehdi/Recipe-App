@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 
 /* eslint-disable react/prop-types */
 export default function Category ({category, icon, className}) {
-    console.log(className)
     return (
         <motion.div 
             initial={{scale: 1}}
